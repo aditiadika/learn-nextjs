@@ -5,7 +5,7 @@ function contact() {
 	return (
 		<div>
 			<MainLayout>
-				<p>contact</p>
+				<p className="contact_static">contact</p>
 			</MainLayout>
 		</div>
 	);
