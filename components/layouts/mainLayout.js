@@ -12,8 +12,10 @@ function MainLayout(props) {
 					href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
 				/>
 			</Head>
-			<Header />
-			{props.children}
+			<div className="mainLayout_container">
+				<Header />
+				<div className="container">{props.children}</div>
+			</div>
 		</div>
 	);
 }
